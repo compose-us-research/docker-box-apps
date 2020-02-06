@@ -17,3 +17,6 @@ additional arguments, it will run `docker-compose up` instead of using
 `docker-compose run app ...`.
 
 If it cannot find a `docker-compose.yml` file, it will try to use `docker run`.
+
+For an example using `docker-compose.yml`, see the [image-fun](./image-fun) 
+directory. For an example with `Dockerfile`, see [youtube-dl](./youtube-dl).
